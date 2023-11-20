@@ -8,8 +8,6 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - favourite_movie
-
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -29,9 +27,6 @@ responses:
 
   utter_iamabot:
   - text: "I am a LincolnBot, the chatbot for the University of Lincoln."
-
-  utter_fav_movie:
-  - text: "My favourite movie is WALL-E"
 
   
 
