@@ -39,4 +39,6 @@ stories:
   - action: utter_iamabot
   - action: utter_ask_name
   - intent: name
+    entities:
+    - names
   - action: utter_greet_name
