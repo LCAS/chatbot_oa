@@ -9,6 +9,19 @@ intents:
   - mood_unhappy
   - bot_challenge
   - favourite_movie
+  - name
+
+
+entities:
+  - name
+
+
+slots:
+  name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: name
 
 responses:
   utter_greet:
@@ -33,6 +46,14 @@ responses:
   utter_fav_movie:
   - text: "My favourite movie is WALL-E"
 
+  utter_movie_sad:
+  - text: "I like to watch movies when I am sad..."
+
+  utter_ask_name:
+  - text: "What is your name?"
+
+  utter_greet_name:
+  - text: "Hey {name}, pleased to meet you!"
   
 
 session_config:

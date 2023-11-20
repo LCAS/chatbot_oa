@@ -1,6 +1,53 @@
 version: "3.1"
 
 nlu:
+- lookup: name
+  examples: |
+    - James
+    - Mary
+    - Robert
+    - Patricia
+    - John
+    - Jennifer
+    - Michael
+    - Linda
+    - David
+    - Elizabeth
+    - William
+    - Barbara
+    - Richard
+    - Susan
+    - Joseph
+    - Jessica
+    - Thomas
+    - Sarah 	
+    - Christopher
+    - Karen 	
+    - Charles
+    - Lisa 	
+    - Daniel
+    - Nancy 	
+    - Matthew
+    - Betty 	
+    - Anthony
+    - Sandra 	
+    - Mark
+    - Margaret 	
+    - Donald
+    - Ashley 	
+    - Steven
+    - Kimberly 	
+    - Andrew
+    - Emily 	
+    - Paul
+    - Donna 	
+    - Joshua
+    - Michelle 	
+    - Kenneth
+    - Carol 	
+    - Kevin
+    - Amanda 	
+    
 - intent: greet
   examples: |
     - hey
@@ -96,5 +143,15 @@ nlu:
     - Do you like any film
     - can you suggest me a movie to watch?
     - which movie did enjoy the most?
+
+- intent: name
+  examples: |
+    - my name is [Francesco](name)
+    - I am [Andrea](name)
+    - I'm [Simon](name)
+    - [John](name) is my name
+    - [Alex](name)
+    - I am called [Jude](name)
+    - people call me [Simone](name)
 
 
