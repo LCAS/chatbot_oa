@@ -8,13 +8,12 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - goodmorning
   - favourite_movie
   - name
 
-
 entities:
   - name
-
 
 slots:
   name:
@@ -26,6 +25,9 @@ slots:
 responses:
   utter_greet:
   - text: "Hey! How are you?"
+
+  utter_greet_guess:
+  - text: "Hey hi! Try guessing who I am.."
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -43,17 +45,18 @@ responses:
   utter_iamabot:
   - text: "I am a LincolnBot, the chatbot for the University of Lincoln."
 
-  utter_fav_movie:
-  - text: "My favourite movie is WALL-E"
-
   utter_movie_sad:
   - text: "I like to watch movies when I am sad..."
+
+  utter_fav_movie:
+  - text: "My favourite movie is WALL-E!"
 
   utter_ask_name:
   - text: "What is your name?"
 
   utter_greet_name:
   - text: "Hey {name}, pleased to meet you!"
+
   
 
 session_config:

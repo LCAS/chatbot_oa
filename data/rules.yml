@@ -7,16 +7,3 @@ rules:
   - intent: goodbye
   - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: name
-    entities:
-    - name
-  - action: utter_greet_name
-
-# - rule: Say favourite movie anytime the user asks
-#   steps:
-#   - intent: favourite_movie
-#   - action: utter_fav_movie
-
-

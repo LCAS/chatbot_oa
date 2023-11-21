@@ -7,15 +7,20 @@ nlu:
     - hello
     - hi
     - hello there
-    - good morning
     - good evening
-    - moin
     - hey there
     - let's go
     - hey dude
-    - goodmorning
     - goodevening
     - good afternoon
+
+- intent: goodmorning
+  examples: |
+    - good morning
+    - hey, it's a good day
+    - moin
+    - goodmorning
+    - morning!
 
 - intent: goodbye
   examples: |
@@ -93,9 +98,9 @@ nlu:
 - intent: favourite_movie
   examples: |
     - what is your favourite movie?
-    - Do you like any film
-    - can you suggest me a movie to watch?
-    - which movie did enjoy the most?
+    - Do you like any film?
+    - which movie do you enjoy the most
+    - can you suggest a movie to watch
 
 - intent: name
   examples: |
@@ -103,8 +108,8 @@ nlu:
     - I am [Andrea](name)
     - I'm [Simon](name)
     - [John](name) is my name
-    - [Alex](name)
+    - [Michelle](name)
     - I am called [Jude](name)
-    - people call me [Simone](name)
+    - people call me [Ali](name)
 
 

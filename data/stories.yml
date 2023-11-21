@@ -4,10 +4,10 @@ stories:
 
 - story: happy path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: greet         # the user greets
+  - action: utter_greet   # the bot greets the user
+  - intent: mood_great    # the user says he is feeling good
+  - action: utter_happy   # the bot replies positively
 
 - story: sad path 1
   steps:
@@ -33,12 +33,14 @@ stories:
 
 - story: introductions
   steps:
-  - intent: greet
-  - action: utter_greet
+  - intent: goodmorning
+  - action: utter_greet_guess
   - intent: bot_challenge
   - action: utter_iamabot
   - action: utter_ask_name
   - intent: name
     entities:
-    - names
+    - name
   - action: utter_greet_name
+
+
