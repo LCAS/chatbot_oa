@@ -7,15 +7,20 @@ nlu:
     - hello
     - hi
     - hello there
-    - good morning
     - good evening
-    - moin
     - hey there
     - let's go
     - hey dude
-    - goodmorning
     - goodevening
     - good afternoon
+
+- intent: goodmorning
+  examples: |
+    - good morning
+    - hey, it's a good day
+    - moin
+    - goodmorning
+    - morning!
 
 - intent: goodbye
   examples: |
